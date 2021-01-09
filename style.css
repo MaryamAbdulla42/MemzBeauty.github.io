@@ -1,0 +1,300 @@
+body {
+  margin:0;
+  font-family: cursive;
+}
+
+a:link {
+ color : #CD853F;
+ text-decoration : none;
+}
+a:visited {
+ color : grey;
+ text-decoration : underline;
+}
+a:hover
+{
+  color : #DEB887;
+  text-decoration : underline;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #DEB887;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #FFF8DC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover
+{
+  background-color:#DCDCDC;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #CD853F;
+  color: white;
+}
+
+.pageone
+{
+  width: 100%
+}
+
+.intro
+{
+    width: 100%
+}
+
+.intro h2
+{
+  padding: 10px 10px 10px;
+  font-size: 45px;
+  text-shadow: 3px 3px 6px #DEB887;
+  color: #111;
+  line-height: 44px;
+}
+
+.intro p
+{
+  padding: 0px 10px 10px;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+.intropic
+{
+  width: 100%
+}
+
+form.contact
+{
+  font-family: sans-serif;
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  align-self: auto;
+  clear: left;
+}
+.contactdetails
+{
+  padding-left: 8px;
+}
+.contactdetails h1
+{
+  text-shadow: 3px 3px 6px #DEB887;
+}
+p.contactdetails
+{
+text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  text-shadow: 3px 3px 6px #DEB887;
+}
+h2
+{
+  text-align: center;
+  text-shadow: 3px 3px 6px #DEB887;
+}
+
+table, th, td
+{
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #CD853F;
+}
+tfoot
+{
+  border: 2px solid #CD853F;
+  text-align: center;
+}
+
+.pagetwo
+{
+  width: 100%;
+}
+
+.pagethree
+{
+  width: 100%;
+}
+.pagefour
+{
+  width: 100%;
+  padding-left: 10px;
+}
+.pagefour h3
+{
+  text-align: center;
+}
+.footer
+{
+  margin-top: 15%;
+}
+
+@media only screen and (min-width:768px)
+{
+  .intropic
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 80%
+  }
+  .pageone
+  {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .intro h2
+  {
+    padding: 20px 0px 0px;
+  }
+
+  .intro p
+  {
+    padding: 20px 0px 0px;
+  }
+
+  .contactdetails
+  {
+    width: 35%;
+    margin-left : 30%
+  }
+
+  .pagetwo
+  {
+    width: 45%;
+    margin-left : 30%
+  }
+
+  .pagethree
+  {
+    width: 40%;
+    margin-left : 30%
+  }
+
+  .pagefour
+  {
+    width: 40%;
+    margin-left :30%
+  }
+}
+
+@media only screen and (min-width:1000px)
+{
+    .pageone
+    {
+      width: 1000px;
+    }
+
+    .intro
+    {
+      width: 40%;
+      float: left;
+    }
+
+    .intropic
+    {
+    padding-top: 40px;
+    width: 40%;
+    float: right;
+   }
+
+   .pagetwo
+   {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      display: table;
+      margin: 0px 0px 0px 0px;
+
+   }
+
+   .faceone
+   {
+     float: left;
+     width: 33%;
+      padding-top: 50px;
+   }
+   .facetwo
+   {
+     float: right;
+     width: 33%;
+     padding-top: 50px;
+   }
+   .facethree
+   {
+     float: left;
+     width: 33%;
+     padding-top: 50px;
+   }
+   .pagetwo:after
+   {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   .handone
+   {
+     float: left;
+     width: 50%;
+      padding-top: 50px;
+   }
+   .handtwo
+   {
+     float: right;
+     width: 50%;
+     padding-top: 50px;
+   }
+
+   .pagethree:after
+   {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   .hairone
+   {
+     float: left;
+     width: 33%;
+    padding-top: 50px;
+   }
+   .hairtwo
+   {
+     float: right;
+     width: 33%;
+     padding-top: 50px;
+   }
+   .hairthree
+   {
+     float: left;
+     width: 33%;
+     padding-top: 50px;
+   }
+   .pagefour:after
+   {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   .footer
+   {
+     margin-top: 35%;
+   }
+}
