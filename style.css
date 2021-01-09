@@ -1,6 +1,6 @@
 body {
   margin:0;
-  font-family: cursive;
+  font-family: inherit;
 }
 
 a:link {
@@ -148,6 +148,11 @@ tfoot
 
 @media only screen and (min-width:768px)
 {
+
+  body {
+    margin:0;
+    font-family: cursive;
+  }
   .intropic
   {
     padding-left: 40px;
@@ -196,6 +201,10 @@ tfoot
 
 @media only screen and (min-width:1000px)
 {
+  body {
+    margin:0;
+    font-family: cursive;
+  }
     .pageone
     {
       width: 1000px;
